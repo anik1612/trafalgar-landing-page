@@ -1,0 +1,59 @@
+/* ============================= 
+            common css
+============================== */
+
+body{
+    background-color: #ffffff;    
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    color: #7D7987;
+}
+
+.custom-button{
+    background-color: #458FF6;
+    padding: 10px 20px;
+    border-radius: 55px;
+}
+
+/* ==============================
+        header section css
+============================== */
+.header-section{
+    padding-top: 20px;
+}
+
+#brand-icon-text{
+    background-color: #458FF6;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.navbar-brand{
+    color: #233348;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #403f42;
+}
+
+.top-banner{
+    padding-top: 15px;
+}
+
+.top-text{
+    padding: 30px;
+}
+
+.top-text p{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
