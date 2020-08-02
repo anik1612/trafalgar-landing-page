@@ -34,7 +34,7 @@ section h3 {
     background-position: left 90px;
 }
 
-#brand-icon-text {
+.brand-icon-text {
     background-color: #458FF6;
     color: #ffffff;
     display: inline-block;
@@ -234,3 +234,32 @@ section h3 {
 /* ====================================
         footer section css
 ==================================== */
+.footer-section{
+    background: linear-gradient(180.92deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    /* height: 432px; */
+    padding: 50px;
+}
+
+.footer-icon-text{
+    background-color: #ffffff;
+    color: #458FF6;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section h5{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.footer-section p, a{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.footer-section a:hover{
+    text-decoration: none;
+    color: black;
+}
