@@ -106,7 +106,7 @@ section h3 {
 .card {
     border-radius: 10px;
     background-color: #ffffff;
-    height: 300px;
+    min-height: 300px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border: none;
     margin: 15px;
@@ -121,7 +121,7 @@ section h3 {
     font-weight: bold;
 }
 
-.card-top-img {
+.service-section .card-top-img {
     height: 80px;
     width: 70px;
     margin-bottom: 15px;
@@ -216,3 +216,21 @@ section h3 {
 .white{
     border-bottom: 2px solid white;
 }
+
+
+/* ====================================
+        article section css
+==================================== */
+.article-card{
+    padding: 0;
+}
+
+.view-all-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* ====================================
+        footer section css
+==================================== */
